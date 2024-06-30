@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>File</title>
+</head>
+<body>
+    <div th:object="${file}">
+        <div>
+            File name:
+            <span th:text="${file.filename}"></span>
+        </div>
+        <div>
+            File size:
+            <span th:text="${file.filesize}"></span>
+        </div>
+        <div>
+            File data:
+            <span th:text="${file.filedata}"></span>
+        </div>
+    </div>
+    <a th:href="@{/home/file/list}" id="backToHomePage">Go home page</a>
+</body>
+</html>
