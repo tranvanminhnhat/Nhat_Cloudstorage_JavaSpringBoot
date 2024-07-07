@@ -10,16 +10,13 @@ We can use this website to store data
 5. Credential function (create, delete, update credential)
 
 ## Technologies
-FE:
+### FE:
 - Thymeleaf
-
-BE:
+### BE:
 - Java
 - SpringBoot
 - Mybatis
-
-DB:
+### DB:
 - H2 db
-
-Test:
+### Test:
 - Test Automation Selenium
